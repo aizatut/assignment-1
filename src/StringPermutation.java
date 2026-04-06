@@ -7,6 +7,7 @@ public class StringPermutation {
     static void permute(String first, String second) {
         if (second.length() == 0) {
             System.out.println(first);
+            return;
         }
         for (int i = 0; i < second.length(); i++) {
             char ch = second.charAt(i);
