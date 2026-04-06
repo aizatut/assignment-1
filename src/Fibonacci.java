@@ -1,4 +1,4 @@
-public class FibonacciCallsCount {
+public class Fibonacci {
 
     static int callCount = 0;
 
@@ -12,7 +12,7 @@ public class FibonacciCallsCount {
     }
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 3;
 
         callCount = 0;
 
